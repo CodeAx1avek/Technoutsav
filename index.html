@@ -3965,7 +3965,7 @@ Sachin Kewat at 9137899536<br><br><hr><br>TEACHER CO-ORDINATOR<br><br>Asst.Prof.
                                     </p>
                                     <h5><b>Competition Format</b></h5>
                                     <ul>
-                                        <li>Round 1 (30 minutes): Participants will be presented with a series of Python and C++ code snippets containing errors. Your task is to identify and fix these errors within the given time frame of 30 minutes.</li>
+                                        <li>Round 1 (30 minutes): Participants will be presented with a series of Python or C++ code snippets containing errors. Your task is to identify and fix these errors within the given time frame of 30 minutes.</li>
                                         <li>Round 2 (20 minutes): Only the top 60% of participants from Round 1 will advance to Round 2.</li>
                                     </ul>
                                     <h5><b>Prizes:</b></h5>
@@ -3984,13 +3984,45 @@ Sachin Kewat at 9137899536<br><br><hr><br>TEACHER CO-ORDINATOR<br><br>Asst.Prof.
                                     <p>Top 3 Winners: Certificate of Excellence, Medals, and Surprise Gifts.</p>
                                 <div><hr><br><hr><br>
                                 <div class="faq">
+                                  <div class="faq">
                                     <h6>FAQ</h6>
-                                    <h5>Q: Is there an entry fee for participating?</h5>
-                                    <p>A: Yes, the entry fee is ₹50, which allows participation in  competitions.</p>
-                                    <h5>Q: How can I register for the event?</h5>
-                                    <p>A: Registration details have been provided on register button!</p>
-                                    <!-- <h5>Q: </h5>
-                                    <p>A: </p> -->
+                                    <div id="faqContent">
+                                        <h5>Q: Is there an entry fee for participating?</h5>
+                                        <p>A: Yes, the entry fee is ₹50, which allows participation in competitions.</p>
+                                        <h5>Q: How can I register for the event?</h5>
+                                        <p>A: Registration details have been provided on the register button!</p>
+                                        <h5>Q: What is the deadline for registration?</h5>
+                                        <p>A: The deadline for registration is one day before the event starts. Please register at least 4 hours before the event starts to secure your spot.</p>
+                                        <div id="hiddenQuestions" style="display: none;">
+                                            <h5>Q: Where should we pay for registration?</h5>
+                                            <p>A: Payment will be accepted offline at the location of the event. Please ensure to make your payment at the registration desk upon arrival.</p>
+                                            <h5>Q: Can I be late by 5 minutes?</h5>
+                                            <p>A: We strongly advise all participants to arrive at least 30 minutes before the event start time. This will allow us to complete the registration process, allocate slots, and address any last-minute requirements efficiently.</p>
+                                            <h5>Q: Can I make payment online?</h5>
+                                            <p>A: For your convenience, cash payment will be preferred at the registration desk. Please bring the required amount in cash for registration.</p>
+                                            <h5>Q: What if I have further questions?</h5>
+                                            <p>A: If you have any additional questions or concerns, feel free to reach out to our event organizers at contact technotsav2k24@gmail.com / 9137899536. We're here to assist you!</p>
+                                        </div>
+                                    </div>
+                                    <button onclick="toggleFAQ()">Read More</button>
+                                </div>
+                                
+                                <script>
+                                    function toggleFAQ() {
+                                        var hiddenQuestions = document.getElementById('hiddenQuestions');
+                                        var buttonText = document.querySelector('.faq button');
+                                        
+                                        if (hiddenQuestions.style.display === 'none') {
+                                            hiddenQuestions.style.display = 'block';
+                                            buttonText.textContent = 'Read Less';
+                                        } else {
+                                            hiddenQuestions.style.display = 'none';
+                                            buttonText.textContent = 'Read More';
+                                        }
+                                    }
+                                </script>
+                                
+                                  
                                     <!-- Add more FAQ items as needed -->
                                 </div>
                             </div>
